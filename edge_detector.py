@@ -1,10 +1,10 @@
-import base64
+
 from PIL import Image
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-ind = [1, 4, 5]
+ind = [1, 4, 2]
 fig, axes = plt.subplots(3, 3, figsize=(9,24))
 y = 0
 for t in ind:
@@ -112,12 +112,7 @@ for t in ind:
     vert = np.zeros((size, size))
     vert[:,size//2-1] = -10
     vert[:,size//2] = 10
-    #
-    #
-    #
-    #
-    #
-    #
+
     img1 = scan(img[:,:,:2], hor)
     img2 = scan(img[:,:,:2], vert)
 
@@ -170,9 +165,5 @@ for t in ind:
 
 
 plt.show()
-#fig.savefig('paw_edge_detection.jpg')
 
 
-'''im = Image.open('../Desktop/dot.jpg', 'r')
-pix = im.load()
-print(im.size)'''
