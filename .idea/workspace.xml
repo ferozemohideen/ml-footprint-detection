@@ -2,243 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="628952d6-0565-47ee-8e21-1b024804b154" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/circle_detection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fourier_transform.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_fourier_transform.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train_edges.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find_correlation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Duke-Tsinghua-MLSS-2017" beforeDir="false" afterPath="$PROJECT_DIR$/Duke-Tsinghua-MLSS-2017" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edge_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/edge_detector.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Archback 1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Archback 1a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Archback 2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Archback 2a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Archback 3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Archback 3a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Archback 4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Archback 4a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Archback 5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Archback 5a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Archback 7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Cassie 1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Cassie 10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Cassie 10a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Cassie 11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Cassie 11a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Cassie 12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Cassie 12a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Cassie 1a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Cassie 2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Cassie 2a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Cassie 3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Cassie 3a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Cassie 4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Cassie 4a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Cassie 5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Cassie 5a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Cassie 6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Cassie 6a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Cassie 7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Cassie 7a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Cassie 8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Cassie 8a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Cassie 9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Cassie 9a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Majanna 1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Majanna 10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Majanna 10a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Majanna 1a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Majanna 2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Majanna 2a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Majanna 3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Majanna 3a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Majanna 4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Majanna 4a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Majanna 5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Majanna 5a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Majanna 6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Majanna 6a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Majanna 7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Majanna 7a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Majanna 8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Majanna 8a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Majanna 9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Majanna 9a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Spots 1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Spots 10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Spots 10a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Spots 11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Spots 11a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Spots 12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Spots 1a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Spots 2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Spots 2a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Spots 3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Spots 3a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Spots 4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Spots 4a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Spots 5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Spots 5a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Spots 6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Spots 6a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Spots 7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Spots 7a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Spots 8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Spots 8a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Spots 9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Spots 9a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Tawney 1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Tawney 10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Tawney 10a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Tawney 11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Tawney 11a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Tawney 12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Tawney 12a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Tawney 1a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Tawney 2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Tawney 2a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Tawney 3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Tawney 3a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Tawney 4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Tawney 4a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Tawney 5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Tawney 5a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Tawney 6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Tawney 6a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Tawney 7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Tawney 7a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Tawney 8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Tawney 8a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Tawney 9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female Tawney 9a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Female left hind 0n left front.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Majanna hind_front eg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Darby 1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Darby 10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Darby 10a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Darby 11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Darby 11a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Darby 12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Darby 12a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Darby 1a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Darby 2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Darby 2a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Darby 3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Darby 3a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Darby 4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Darby 4a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Darby 5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Darby 5a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Darby 6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Darby 6a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Darby 7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Darby 7a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Darby 8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Darby 8a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Darby 9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Darby 9a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 10a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 11a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 12a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 13a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 14a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 15a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 16a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 17a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 18a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 1a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 2a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 3a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 4a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 5a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 6a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 7a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 8a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Oldex 9a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Phoenix 1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Phoenix 10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Phoenix 10a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Phoenix 1a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Phoenix 2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Phoenix 2a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Phoenix 3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Phoenix 3a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Phoenix 4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Phoenix 4a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Phoenix 5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Phoenix 5a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Phoenix 6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Phoenix 6a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Phoenix 7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Phoenix 7a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Phoenix 8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Phoenix 8a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Phoenix 9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Phoenix 9a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Skit 1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Skit 10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Skit 10a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Skit 11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Skit 11a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Skit 1a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Skit 2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Skit 2a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Skit 3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Skit 3a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Skit 4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Skit 4a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Skit 5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Skit 5a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Skit 6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Skit 6a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Skit 7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Skit 7a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Skit 8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Skit 8a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Skit 9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Skit 9a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Skit Front_hind eg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Taz 1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Taz 10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Taz 10a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Taz 11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Taz 11a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Taz 17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Taz 17a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Taz 1a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Taz 2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Taz 2a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Taz 3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Taz 3a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Taz 5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Taz 5a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Taz 6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Taz 6a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Taz 7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Taz 7a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Taz 8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Taz 8a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Taz 9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Male Taz 9a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Phoenix partial registration of hind on front eg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eda.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -252,8 +19,8 @@
       <file leaf-file-name="edge_detector.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/edge_detector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            <state relative-caret-position="1921">
+              <caret line="140" column="4" selection-start-line="140" selection-start-column="4" selection-end-line="140" selection-end-column="29" />
               <folding>
                 <element signature="e#1#22#0" expanded="true" />
                 <element signature="e#1450#2484#0" />
@@ -262,11 +29,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="train_edges.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="find_correlation.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/find_correlation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1292">
+              <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+              <folding>
+                <element signature="e#73#104#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="train_edges.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train_edges.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="63" column="65" selection-start-line="63" selection-start-column="65" selection-end-line="63" selection-end-column="65" />
+            <state relative-caret-position="612">
+              <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -330,11 +109,14 @@
         <option value="$PROJECT_DIR$/test_fourier_transform.py" />
         <option value="$PROJECT_DIR$/edge_detector.py" />
         <option value="$PROJECT_DIR$/train_edges.py" />
+        <option value="$PROJECT_DIR$/eda.py" />
+        <option value="$PROJECT_DIR$/find_correlation.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-15" />
+    <option name="x" value="830" />
+    <option name="y" value="185" />
     <option name="width" value="1950" />
     <option name="height" value="2075" />
   </component>
@@ -343,7 +125,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -362,17 +143,11 @@
               <item name="images" type="462c0819:PsiDirectoryNode" />
               <item name="unmarked" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ECE 391" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ECE 391" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="unmarked" type="462c0819:PsiDirectoryNode" />
-              <item name="masks" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -391,8 +166,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.train_edges">
-    <configuration name="circle_detection" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.find_correlation">
+    <configuration name="eda" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ECE 391" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -404,7 +179,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/circle_detection.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Feroze\Google Drive\DUKE 2016-2020\ECE 391\find_correlation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -428,7 +203,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="fourier_transform" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="find_correlation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ECE 391" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -440,7 +215,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fourier_transform.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/find_correlation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -484,18 +259,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.edge_detector" />
-      <item itemvalue="Python.fourier_transform" />
       <item itemvalue="Python.test_fourier_transform" />
-      <item itemvalue="Python.circle_detection" />
       <item itemvalue="Python.train_edges" />
+      <item itemvalue="Python.eda" />
+      <item itemvalue="Python.find_correlation" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.train_edges" />
+        <item itemvalue="Python.find_correlation" />
         <item itemvalue="Python.edge_detector" />
+        <item itemvalue="Python.eda" />
+        <item itemvalue="Python.train_edges" />
         <item itemvalue="Python.test_fourier_transform" />
-        <item itemvalue="Python.fourier_transform" />
-        <item itemvalue="Python.circle_detection" />
       </list>
     </recent_temporary>
   </component>
@@ -513,18 +288,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="780" height="830" extended-state="0" />
+    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.5080645" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22060767" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25431034" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25320056" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -537,7 +313,124 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/edge_detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1921">
+          <caret line="140" column="4" selection-start-line="140" selection-start-column="4" selection-end-line="140" selection-end-column="29" />
+          <folding>
+            <element signature="e#1#22#0" expanded="true" />
+            <element signature="e#1450#2484#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_edges.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_fourier_transform.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2788">
+          <caret line="168" column="6" selection-start-line="168" selection-start-column="6" selection-end-line="168" selection-end-column="6" />
+          <folding>
+            <element signature="e#1#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fourier_transform.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/find_correlation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding>
+            <element signature="e#73#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edge_detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="e#1#22#0" expanded="true" />
+            <element signature="e#1450#2484#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_fourier_transform.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2788">
+          <caret line="168" column="6" selection-start-line="168" selection-start-column="6" selection-end-line="168" selection-end-column="6" />
+          <folding>
+            <element signature="e#1#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fourier_transform.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_edges.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="63" column="65" selection-start-line="63" selection-start-column="65" selection-end-line="63" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/edge_detector.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -663,10 +556,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/train_edges.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/edge_detector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="1921">
+          <caret line="140" column="4" selection-start-line="140" selection-start-column="4" selection-end-line="140" selection-end-column="29" />
           <folding>
             <element signature="e#1#22#0" expanded="true" />
             <element signature="e#1450#2484#0" />
@@ -674,12 +577,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train_edges.py">
+    <entry file="file://$PROJECT_DIR$/find_correlation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="65" selection-start-line="63" selection-start-column="65" selection-end-line="63" selection-end-column="65" />
+        <state relative-caret-position="1292">
+          <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#73#104#0" expanded="true" />
           </folding>
         </state>
       </provider>
