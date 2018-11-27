@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="628952d6-0565-47ee-8e21-1b024804b154" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/find_correlation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Duke-Tsinghua-MLSS-2017" beforeDir="false" afterPath="$PROJECT_DIR$/Duke-Tsinghua-MLSS-2017" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eda.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/edge_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/edge_detector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/find_correlation.py" beforeDir="false" afterPath="$PROJECT_DIR$/find_correlation.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,10 +18,11 @@
       <file leaf-file-name="edge_detector.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/edge_detector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1921">
-              <caret line="140" column="4" selection-start-line="140" selection-start-column="4" selection-end-line="140" selection-end-column="29" />
+            <state relative-caret-position="153">
+              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="e#1#22#0" expanded="true" />
+                <element signature="e#468#1402#0" />
                 <element signature="e#1450#2484#0" />
               </folding>
             </state>
@@ -32,8 +32,8 @@
       <file leaf-file-name="find_correlation.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/find_correlation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+            <state relative-caret-position="324">
+              <caret line="110" column="39" lean-forward="true" selection-start-line="110" selection-start-column="39" selection-end-line="110" selection-end-column="39" />
               <folding>
                 <element signature="e#73#104#0" expanded="true" />
               </folding>
@@ -107,14 +107,14 @@
         <option value="$PROJECT_DIR$/circle_detection.py" />
         <option value="$PROJECT_DIR$/fourier_transform.py" />
         <option value="$PROJECT_DIR$/test_fourier_transform.py" />
-        <option value="$PROJECT_DIR$/edge_detector.py" />
         <option value="$PROJECT_DIR$/train_edges.py" />
         <option value="$PROJECT_DIR$/eda.py" />
+        <option value="$PROJECT_DIR$/edge_detector.py" />
         <option value="$PROJECT_DIR$/find_correlation.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="830" />
     <option name="y" value="185" />
     <option name="width" value="1950" />
@@ -125,6 +125,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,11 +144,17 @@
               <item name="images" type="462c0819:PsiDirectoryNode" />
               <item name="unmarked" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ECE 391" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ECE 391" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="unmarked" type="462c0819:PsiDirectoryNode" />
+              <item name="train_cnn" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,7 +303,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25320056" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25320056" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -325,6 +332,69 @@
           <caret line="140" column="4" selection-start-line="140" selection-start-column="4" selection-end-line="140" selection-end-column="29" />
           <folding>
             <element signature="e#1#22#0" expanded="true" />
+            <element signature="e#468#1402#0" />
+            <element signature="e#1450#2484#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_edges.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_fourier_transform.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2788">
+          <caret line="168" column="6" selection-start-line="168" selection-start-column="6" selection-end-line="168" selection-end-column="6" />
+          <folding>
+            <element signature="e#1#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fourier_transform.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/find_correlation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+          <folding>
+            <element signature="e#73#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edge_detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1921">
+          <caret line="140" column="4" selection-start-line="140" selection-start-column="4" selection-end-line="140" selection-end-column="29" />
+          <folding>
+            <element signature="e#1#22#0" expanded="true" />
+            <element signature="e#468#1402#0" />
             <element signature="e#1450#2484#0" />
           </folding>
         </state>
@@ -386,6 +456,7 @@
           <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           <folding>
             <element signature="e#1#22#0" expanded="true" />
+            <element signature="e#468#1402#0" />
             <element signature="e#1450#2484#0" />
           </folding>
         </state>
@@ -437,6 +508,7 @@
           <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           <folding>
             <element signature="e#1#22#0" expanded="true" />
+            <element signature="e#468#1402#0" />
             <element signature="e#1450#2484#0" />
           </folding>
         </state>
@@ -488,6 +560,7 @@
           <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#1#22#0" expanded="true" />
+            <element signature="e#468#1402#0" />
             <element signature="e#1450#2484#0" />
           </folding>
         </state>
@@ -566,12 +639,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../PYTHON/django-machine-learning/venv/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="3204" selection-start-line="3204" selection-end-line="3204" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/edge_detector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1921">
-          <caret line="140" column="4" selection-start-line="140" selection-start-column="4" selection-end-line="140" selection-end-column="29" />
+        <state relative-caret-position="153">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="e#1#22#0" expanded="true" />
+            <element signature="e#468#1402#0" />
             <element signature="e#1450#2484#0" />
           </folding>
         </state>
@@ -579,8 +660,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/find_correlation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+        <state relative-caret-position="324">
+          <caret line="110" column="39" lean-forward="true" selection-start-line="110" selection-start-column="39" selection-end-line="110" selection-end-column="39" />
           <folding>
             <element signature="e#73#104#0" expanded="true" />
           </folding>

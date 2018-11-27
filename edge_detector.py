@@ -4,11 +4,11 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-ind = [1, 4, 2]
+ind = [1, 5, 2]
 fig, axes = plt.subplots(3, 3, figsize=(9,24))
 y = 0
 for t in ind:
-    im = Image.open('images/Female Archback ' + str(t) + '.jpg')
+    im = Image.open('images/unmarked/test_cnn/Female Archback ' + str(t) + '.jpg')
     #im = Image.open('dot.jpg')
     size = im.getdata().size
     #print(size)
