@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="628952d6-0565-47ee-8e21-1b024804b154" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/test_image_blur.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Duke-Tsinghua-MLSS-2017" beforeDir="false" afterPath="$PROJECT_DIR$/Duke-Tsinghua-MLSS-2017" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/edge_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/edge_detector.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/find_correlation.py" beforeDir="false" afterPath="$PROJECT_DIR$/find_correlation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_mlp.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/train_mlp.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,22 +20,38 @@
       <file leaf-file-name="edge_detector.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/edge_detector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="15">
+              <caret line="141" column="4" selection-start-line="141" selection-start-column="4" selection-end-line="141" selection-end-column="29" />
               <folding>
                 <element signature="e#1#22#0" expanded="true" />
-                <element signature="e#468#1402#0" />
-                <element signature="e#1450#2484#0" />
+                <element signature="e#486#1420#0" />
+                <element signature="e#1468#2502#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="find_correlation.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_image_blur.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_image_blur.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#46#908#0" />
+                <element signature="e#948#1902#0" />
+                <element signature="e#2384#2778#0" />
+                <element signature="e#2891#3224#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="find_correlation.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/find_correlation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="110" column="39" lean-forward="true" selection-start-line="110" selection-start-column="39" selection-end-line="110" selection-end-column="39" />
+            <state relative-caret-position="1717">
+              <caret line="105" column="33" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="33" />
               <folding>
                 <element signature="e#73#104#0" expanded="true" />
               </folding>
@@ -109,15 +127,15 @@
         <option value="$PROJECT_DIR$/test_fourier_transform.py" />
         <option value="$PROJECT_DIR$/train_edges.py" />
         <option value="$PROJECT_DIR$/eda.py" />
-        <option value="$PROJECT_DIR$/edge_detector.py" />
         <option value="$PROJECT_DIR$/find_correlation.py" />
+        <option value="$PROJECT_DIR$/edge_detector.py" />
+        <option value="$PROJECT_DIR$/test_image_blur.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="830" />
-    <option name="y" value="185" />
-    <option name="width" value="1950" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1905" />
+    <option name="width" value="1948" />
     <option name="height" value="2075" />
   </component>
   <component name="ProjectView">
@@ -144,13 +162,6 @@
               <item name="images" type="462c0819:PsiDirectoryNode" />
               <item name="unmarked" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ECE 391" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ECE 391" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="unmarked" type="462c0819:PsiDirectoryNode" />
-              <item name="train_cnn" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -173,7 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.find_correlation">
+  <component name="RunManager" selected="Python.test_image_blur">
     <configuration name="eda" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ECE 391" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -228,7 +239,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test_fourier_transform" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_image_blur" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ECE 391" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -240,7 +251,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_fourier_transform.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_image_blur.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -266,18 +277,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.edge_detector" />
-      <item itemvalue="Python.test_fourier_transform" />
       <item itemvalue="Python.train_edges" />
       <item itemvalue="Python.eda" />
       <item itemvalue="Python.find_correlation" />
+      <item itemvalue="Python.test_image_blur" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_image_blur" />
         <item itemvalue="Python.find_correlation" />
         <item itemvalue="Python.edge_detector" />
         <item itemvalue="Python.eda" />
         <item itemvalue="Python.train_edges" />
-        <item itemvalue="Python.test_fourier_transform" />
       </list>
     </recent_temporary>
   </component>
@@ -298,12 +309,12 @@
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22060767" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15785997" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25320056" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25035563" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -322,18 +333,93 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/edge_detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="e#1#22#0" expanded="true" />
+            <element signature="e#486#1420#0" />
+            <element signature="e#1468#2502#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/find_correlation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1717">
+          <caret line="105" column="33" lean-forward="true" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="33" />
+          <folding>
+            <element signature="e#73#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_edges.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_fourier_transform.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2788">
+          <caret line="168" column="6" selection-start-line="168" selection-start-column="6" selection-end-line="168" selection-end-column="6" />
+          <folding>
+            <element signature="e#1#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fourier_transform.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_image_blur.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#46#908#0" />
+            <element signature="e#948#1902#0" />
+            <element signature="e#2384#2778#0" />
+            <element signature="e#2891#3224#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/edge_detector.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1921">
           <caret line="140" column="4" selection-start-line="140" selection-start-column="4" selection-end-line="140" selection-end-column="29" />
           <folding>
             <element signature="e#1#22#0" expanded="true" />
-            <element signature="e#468#1402#0" />
-            <element signature="e#1450#2484#0" />
+            <element signature="e#486#1420#0" />
+            <element signature="e#1468#2502#0" />
           </folding>
         </state>
       </provider>
@@ -394,8 +480,8 @@
           <caret line="140" column="4" selection-start-line="140" selection-start-column="4" selection-end-line="140" selection-end-column="29" />
           <folding>
             <element signature="e#1#22#0" expanded="true" />
-            <element signature="e#468#1402#0" />
-            <element signature="e#1450#2484#0" />
+            <element signature="e#486#1420#0" />
+            <element signature="e#1468#2502#0" />
           </folding>
         </state>
       </provider>
@@ -456,8 +542,8 @@
           <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           <folding>
             <element signature="e#1#22#0" expanded="true" />
-            <element signature="e#468#1402#0" />
-            <element signature="e#1450#2484#0" />
+            <element signature="e#486#1420#0" />
+            <element signature="e#1468#2502#0" />
           </folding>
         </state>
       </provider>
@@ -508,8 +594,8 @@
           <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           <folding>
             <element signature="e#1#22#0" expanded="true" />
-            <element signature="e#468#1402#0" />
-            <element signature="e#1450#2484#0" />
+            <element signature="e#486#1420#0" />
+            <element signature="e#1468#2502#0" />
           </folding>
         </state>
       </provider>
@@ -560,8 +646,8 @@
           <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#1#22#0" expanded="true" />
-            <element signature="e#468#1402#0" />
-            <element signature="e#1450#2484#0" />
+            <element signature="e#486#1420#0" />
+            <element signature="e#1468#2502#0" />
           </folding>
         </state>
       </provider>
@@ -646,24 +732,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edge_detector.py">
+    <entry file="file://$PROJECT_DIR$/find_correlation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="1717">
+          <caret line="105" column="33" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="33" />
           <folding>
-            <element signature="e#1#22#0" expanded="true" />
-            <element signature="e#468#1402#0" />
-            <element signature="e#1450#2484#0" />
+            <element signature="e#73#104#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/find_correlation.py">
+    <entry file="file://$PROJECT_DIR$/edge_detector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="110" column="39" lean-forward="true" selection-start-line="110" selection-start-column="39" selection-end-line="110" selection-end-column="39" />
+        <state relative-caret-position="15">
+          <caret line="141" column="4" selection-start-line="141" selection-start-column="4" selection-end-line="141" selection-end-column="29" />
           <folding>
-            <element signature="e#73#104#0" expanded="true" />
+            <element signature="e#1#22#0" expanded="true" />
+            <element signature="e#486#1420#0" />
+            <element signature="e#1468#2502#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_image_blur.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#46#908#0" />
+            <element signature="e#948#1902#0" />
+            <element signature="e#2384#2778#0" />
+            <element signature="e#2891#3224#0" />
           </folding>
         </state>
       </provider>

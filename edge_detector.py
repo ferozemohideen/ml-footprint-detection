@@ -4,6 +4,7 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+
 ind = [1, 5, 2]
 fig, axes = plt.subplots(3, 3, figsize=(9,24))
 y = 0
