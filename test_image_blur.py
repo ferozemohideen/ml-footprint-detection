@@ -61,18 +61,16 @@ def scan(image, filt, stride=1):
 
     return downsampled
 
-img = cv2.imread('images/unmarked/train_cnn/Male Skit 1.jpg')
+img = cv2.imread('images/unmarked/test_cnn/Female Archback 1.jpg')
 blur = cv2.bilateralFilter(img,40,100,100)
-#blur = cv2.bilateralFilter(blur,20,100,100)
-#blur = cv2.adaptiveBilateralFilter(img,40,75,75)
-#blur = cv2.GaussianBlur(img,(5,5),0)
+
 
 # print(blur2.shape)
 # cv2.imshow('blur', blur2)
 # cv2.imshow('original', img)
 # cv2.waitKey(0)
 # cv2.destroyAllWindows()
-
+#plt.imsave('images/unmarked/filter/Female Archback 4.jpg', blur)
 def detectEdges(arg, size=5):
     img = pool(arg[:, :, :2], np.mean, kernel=50)
     hor = np.zeros((size, size))
@@ -92,7 +90,6 @@ def detectEdges(arg, size=5):
     img = img2 + img1
     return np.sum(img, axis=2)
 
-
 def auto_canny(image, sigma=0.33):
     # compute the median of the single channel pixel intensities
     v = np.median(image)
@@ -106,9 +103,11 @@ def auto_canny(image, sigma=0.33):
     return edged
 # blur2 = auto_canny(blur)
 # blur2 = auto_canny(blur)
-axes[1].imshow(blur)
+sns.heatmap(detectEdges(blur), axes=axes[1],cbar=None)
 axes[0].imshow(img)
 plt.tight_layout()
+plt.axis("off")
+axes[0].axis("off")
 plt.show()
 
 # plt.show()

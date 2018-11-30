@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import cv2
 
 fig, axes = plt.subplots(nrows=2, ncols=2)
-img = cv2.imread('images/Female Archback 1.jpg',0)
+img = cv2.imread('images/unmarked/test_cnn/Female Archback 1.jpg',0)
 dft = cv2.dft(np.float32(img),flags = cv2.DFT_COMPLEX_OUTPUT)
 dft_shift = np.fft.fftshift(dft)
 
