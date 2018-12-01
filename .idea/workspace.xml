@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="628952d6-0565-47ee-8e21-1b024804b154" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/template_morphing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Duke-Tsinghua-MLSS-2017" beforeDir="false" afterPath="$PROJECT_DIR$/Duke-Tsinghua-MLSS-2017" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/final poster.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/final poster.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/test.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fourier_transform.py" beforeDir="false" afterPath="$PROJECT_DIR$/fourier_transform.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_fourier_transform.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_fourier_transform.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_image_blur.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_image_blur.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_mlp.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/train_mlp.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,8 +22,8 @@
       <file leaf-file-name="edge_detector.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/edge_detector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2346">
-              <caret line="141" column="4" selection-start-line="141" selection-start-column="4" selection-end-line="141" selection-end-column="29" />
+            <state relative-caret-position="428">
+              <caret line="140" selection-start-line="140" selection-end-line="140" />
               <folding>
                 <element signature="e#1#22#0" expanded="true" />
               </folding>
@@ -33,12 +34,26 @@
       <file leaf-file-name="test_image_blur.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_image_blur.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="100" selection-start-line="100" selection-end-line="100" />
+            <state relative-caret-position="-99">
+              <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
-                <element signature="e#199#1072#0" />
-                <element signature="e#1112#2080#0" />
+                <element signature="e#198#1071#0" />
+                <element signature="e#1111#2079#0" />
+                <element signature="e#2413#2823#0" />
+                <element signature="e#2867#3200#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template_morphing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template_morphing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+              <folding>
+                <element signature="e#518#536#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,10 +62,12 @@
       <file leaf-file-name="find_correlation.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/find_correlation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="66" />
+            <state relative-caret-position="884">
+              <caret line="74" column="57" selection-start-line="74" selection-start-column="57" selection-end-line="74" selection-end-column="57" />
               <folding>
                 <element signature="e#73#104#0" expanded="true" />
+                <element signature="e#668#902#0" />
+                <element signature="e#937#1850#0" />
               </folding>
             </state>
           </provider>
@@ -59,7 +76,7 @@
       <file leaf-file-name="train_edges.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train_edges.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
+            <state relative-caret-position="-82">
               <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
@@ -68,25 +85,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_fourier_transform.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_fourier_transform.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_fourier_transform.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="986">
+              <caret line="111" column="26" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
               <folding>
                 <element signature="e#1#22#0" expanded="true" />
-                <element signature="e#1033#1895#0" />
-                <element signature="e#1935#2889#0" />
+                <element signature="e#1051#1913#0" />
+                <element signature="e#1953#2907#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fourier_transform.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="fourier_transform.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fourier_transform.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+            <state relative-caret-position="343">
+              <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -97,7 +114,7 @@
       <file leaf-file-name="circle_detection.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/circle_detection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="136">
               <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -122,13 +139,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/circle_detection.py" />
-        <option value="$PROJECT_DIR$/fourier_transform.py" />
         <option value="$PROJECT_DIR$/train_edges.py" />
         <option value="$PROJECT_DIR$/eda.py" />
         <option value="$PROJECT_DIR$/find_correlation.py" />
         <option value="$PROJECT_DIR$/edge_detector.py" />
-        <option value="$PROJECT_DIR$/test_image_blur.py" />
         <option value="$PROJECT_DIR$/test_fourier_transform.py" />
+        <option value="$PROJECT_DIR$/test_image_blur.py" />
+        <option value="$PROJECT_DIR$/template_morphing.py" />
+        <option value="$PROJECT_DIR$/fourier_transform.py" />
       </list>
     </option>
   </component>
@@ -142,6 +160,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,17 +173,10 @@
               <item name="ECE 391" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ECE 391" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ECE 391" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="unmarked" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -183,43 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_fourier_transform">
-    <configuration name="eda" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ECE 391" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Feroze\Google Drive\DUKE 2016-2020\ECE 391\find_correlation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="edge_detector" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ECE 391" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/edge_detector.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.fourier_transform">
     <configuration name="find_correlation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ECE 391" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -233,6 +209,42 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/find_correlation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="fourier_transform" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ECE 391" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fourier_transform.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="template_morphing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ECE 391" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/template_morphing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -275,19 +287,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.edge_detector" />
-      <item itemvalue="Python.eda" />
       <item itemvalue="Python.find_correlation" />
       <item itemvalue="Python.test_image_blur" />
       <item itemvalue="Python.test_fourier_transform" />
+      <item itemvalue="Python.template_morphing" />
+      <item itemvalue="Python.fourier_transform" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_fourier_transform" />
+        <item itemvalue="Python.fourier_transform" />
+        <item itemvalue="Python.template_morphing" />
         <item itemvalue="Python.test_image_blur" />
+        <item itemvalue="Python.test_fourier_transform" />
         <item itemvalue="Python.find_correlation" />
-        <item itemvalue="Python.edge_detector" />
-        <item itemvalue="Python.eda" />
       </list>
     </recent_temporary>
   </component>
@@ -306,13 +318,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15719947" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15719947" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25035563" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25035563" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -331,7 +344,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -351,6 +364,8 @@
           <caret line="105" column="33" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="33" />
           <folding>
             <element signature="e#73#104#0" expanded="true" />
+            <element signature="e#668#902#0" />
+            <element signature="e#937#1850#0" />
           </folding>
         </state>
       </provider>
@@ -371,8 +386,8 @@
           <caret line="168" column="6" selection-start-line="168" selection-start-column="6" selection-end-line="168" selection-end-column="6" />
           <folding>
             <element signature="e#1#22#0" expanded="true" />
-            <element signature="e#1033#1895#0" />
-            <element signature="e#1935#2889#0" />
+            <element signature="e#1051#1913#0" />
+            <element signature="e#1953#2907#0" />
           </folding>
         </state>
       </provider>
@@ -403,8 +418,10 @@
           <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-            <element signature="e#199#1072#0" />
-            <element signature="e#1112#2080#0" />
+            <element signature="e#198#1071#0" />
+            <element signature="e#1111#2079#0" />
+            <element signature="e#2413#2823#0" />
+            <element signature="e#2867#3200#0" />
           </folding>
         </state>
       </provider>
@@ -425,6 +442,8 @@
           <caret line="105" column="33" lean-forward="true" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="33" />
           <folding>
             <element signature="e#73#104#0" expanded="true" />
+            <element signature="e#668#902#0" />
+            <element signature="e#937#1850#0" />
           </folding>
         </state>
       </provider>
@@ -445,8 +464,8 @@
           <caret line="168" column="6" selection-start-line="168" selection-start-column="6" selection-end-line="168" selection-end-column="6" />
           <folding>
             <element signature="e#1#22#0" expanded="true" />
-            <element signature="e#1033#1895#0" />
-            <element signature="e#1935#2889#0" />
+            <element signature="e#1051#1913#0" />
+            <element signature="e#1953#2907#0" />
           </folding>
         </state>
       </provider>
@@ -476,8 +495,10 @@
         <state>
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-            <element signature="e#199#1072#0" />
-            <element signature="e#1112#2080#0" />
+            <element signature="e#198#1071#0" />
+            <element signature="e#1111#2079#0" />
+            <element signature="e#2413#2823#0" />
+            <element signature="e#2867#3200#0" />
           </folding>
         </state>
       </provider>
@@ -508,8 +529,8 @@
           <caret line="168" column="6" selection-start-line="168" selection-start-column="6" selection-end-line="168" selection-end-column="6" />
           <folding>
             <element signature="e#1#22#0" expanded="true" />
-            <element signature="e#1033#1895#0" />
-            <element signature="e#1935#2889#0" />
+            <element signature="e#1051#1913#0" />
+            <element signature="e#1953#2907#0" />
           </folding>
         </state>
       </provider>
@@ -540,6 +561,8 @@
           <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
           <folding>
             <element signature="e#73#104#0" expanded="true" />
+            <element signature="e#668#902#0" />
+            <element signature="e#937#1850#0" />
           </folding>
         </state>
       </provider>
@@ -570,8 +593,8 @@
           <caret line="168" column="6" selection-start-line="168" selection-start-column="6" selection-end-line="168" selection-end-column="6" />
           <folding>
             <element signature="e#1#22#0" expanded="true" />
-            <element signature="e#1033#1895#0" />
-            <element signature="e#1935#2889#0" />
+            <element signature="e#1051#1913#0" />
+            <element signature="e#1953#2907#0" />
           </folding>
         </state>
       </provider>
@@ -602,6 +625,8 @@
           <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
           <folding>
             <element signature="e#73#104#0" expanded="true" />
+            <element signature="e#668#902#0" />
+            <element signature="e#937#1850#0" />
           </folding>
         </state>
       </provider>
@@ -622,8 +647,8 @@
           <caret line="168" column="6" selection-start-line="168" selection-start-column="6" selection-end-line="168" selection-end-column="6" />
           <folding>
             <element signature="e#1#22#0" expanded="true" />
-            <element signature="e#1033#1895#0" />
-            <element signature="e#1935#2889#0" />
+            <element signature="e#1051#1913#0" />
+            <element signature="e#1953#2907#0" />
           </folding>
         </state>
       </provider>
@@ -674,8 +699,8 @@
           <caret line="168" column="6" selection-start-line="168" selection-start-column="6" selection-end-line="168" selection-end-column="6" />
           <folding>
             <element signature="e#1#22#0" expanded="true" />
-            <element signature="e#1033#1895#0" />
-            <element signature="e#1935#2889#0" />
+            <element signature="e#1051#1913#0" />
+            <element signature="e#1953#2907#0" />
           </folding>
         </state>
       </provider>
@@ -746,34 +771,14 @@
           <caret line="168" column="6" selection-start-line="168" selection-start-column="6" selection-end-line="168" selection-end-column="6" />
           <folding>
             <element signature="e#1#22#0" expanded="true" />
-            <element signature="e#1033#1895#0" />
-            <element signature="e#1935#2889#0" />
+            <element signature="e#1051#1913#0" />
+            <element signature="e#1953#2907#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/circle_detection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fourier_transform.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../PYTHON/django-machine-learning/venv/Lib/site-packages/matplotlib/pyplot.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -782,31 +787,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/circle_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/edge_detector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2346">
-          <caret line="141" column="4" selection-start-line="141" selection-start-column="4" selection-end-line="141" selection-end-column="29" />
+        <state relative-caret-position="428">
+          <caret line="140" selection-start-line="140" selection-end-line="140" />
           <folding>
             <element signature="e#1#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_image_blur.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-            <element signature="e#199#1072#0" />
-            <element signature="e#1112#2080#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/train_edges.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
+        <state relative-caret-position="-82">
           <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
@@ -816,22 +819,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/find_correlation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="66" />
+        <state relative-caret-position="884">
+          <caret line="74" column="57" selection-start-line="74" selection-start-column="57" selection-end-line="74" selection-end-column="57" />
           <folding>
             <element signature="e#73#104#0" expanded="true" />
+            <element signature="e#668#902#0" />
+            <element signature="e#937#1850#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_image_blur.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99">
+          <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#198#1071#0" />
+            <element signature="e#1111#2079#0" />
+            <element signature="e#2413#2823#0" />
+            <element signature="e#2867#3200#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paw_edge_detection.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template_morphing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+          <folding>
+            <element signature="e#518#536#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_fourier_transform.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="986">
+          <caret line="111" column="26" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
           <folding>
             <element signature="e#1#22#0" expanded="true" />
-            <element signature="e#1033#1895#0" />
-            <element signature="e#1935#2889#0" />
+            <element signature="e#1051#1913#0" />
+            <element signature="e#1953#2907#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fourier_transform.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>

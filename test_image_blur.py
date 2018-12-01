@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import cv2
 
-fig, axes = plt.subplots(1, 2, figsize=(12,5))
+#fig, axes = plt.subplots(2, 2, figsize=(7,5))
 def pool(image, fn, kernel=5, stride=2):
     h_prev, w_prev, n = image.shape
 
@@ -61,7 +61,7 @@ def scan(image, filt, stride=1):
 
     return downsampled
 
-img = cv2.imread('images/unmarked/test_cnn/Female Archback 1.jpg')
+img = cv2.imread('images/unmarked/masks/Female Archback 4.jpg')
 blur = cv2.bilateralFilter(img,40,100,100)
 
 
@@ -103,11 +103,18 @@ def auto_canny(image, sigma=0.33):
     return edged
 # blur2 = auto_canny(blur)
 # blur2 = auto_canny(blur)
-sns.heatmap(detectEdges(blur), axes=axes[1],cbar=None)
-axes[0].imshow(img)
+#axes[1,1] = sns.heatmap(detectEdges(blur), cbar=None)
+#axes[1,0].imshow(blur)
+#axes[2,0].imshow(blur)
+#axes[0,0].imshow(img)
+#sns.heatmap(detectEdges(img), ax=axes[0,1],cbar=None)
+#sns.heatmap(detectEdges(blur), ax=axes[1,1],cbar=None)
+plt.imshow(detectEdges(img))
+
+#sns.heatmap(auto_canny(blur), ax=axes[2,1],cbar=None)
 plt.tight_layout()
-plt.axis("off")
-axes[0].axis("off")
+
+#axes[0].axis("off")
 plt.show()
 
 # plt.show()

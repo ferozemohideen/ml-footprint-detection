@@ -119,8 +119,7 @@ img = pool(img[:,:,:2], np.mean, kernel=50)
 # #print(img.shape)
 # #img = pool(img[:,:,:], np.max)
 # #print(img.shape)
-#
-#
+
 hor = np.zeros((size, size))
 hor[size//2-1,:] = -10
 hor[size//2,:] = 10
